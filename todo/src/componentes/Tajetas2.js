@@ -3,6 +3,7 @@ import Tarjeta from "./Tarjetas";
 import'./css/Tarjeta.css';
 function Videos2 (props){
     return(
+        <div className="container">
         <div className="todo">
             {props.corto.map((cosa)=>{
                 return(
@@ -14,6 +15,7 @@ function Videos2 (props){
                 )
             })}
         </div>
+            </div>
     )
 }
 
