@@ -6,22 +6,6 @@ border-radius: 5px;
 margin-left: 15px;
 
 }
-.container--descripcion{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    color: whitesmoke;
-}
-.descripcion--item{
-    width: 130px;
-    height: 25px;
-    border-radius: 8px;
-    background-color: rgb(44, 42, 42);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .acceder{
     font-family: sans-serif;
     display: flex;
