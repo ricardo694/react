@@ -17,7 +17,6 @@ import '../componentes/css/page.css'
 import "../componentes/css/Saludos.css";
 import "../componentes/css/Tarjeta.css";
 import Videos2 from "../componentes/Tajetas2"
-import Botn from '../componentes/Button';
 export default class Principal extends React.Component{
     constructor(props){
     super(props);
@@ -34,14 +33,12 @@ export default class Principal extends React.Component{
             "descrip":"El rottweiler es una raza canina de tipo molosoide originaria de Alemania, ",
             "img":rottwailer,
              "videos":"https://www.youtube.com/watch?v=0tU_PTOlehs"
-
         },
         {
             "id":3,
             "title":"rottwailer",
             "descrip":"El rottweiler es una raza canina de tipo molosoide originaria de Alemania, ",
             "img":colores,
-            "color":"green",
             "videos":"https://www.youtube.com/watch?v=0tU_PTOlehs"
 
         },
@@ -50,8 +47,7 @@ export default class Principal extends React.Component{
             "title":"rottwailer",
             "descrip":"El rottweiler es una raza canina de tipo molosoide originaria de Alemania,",
             "img":elefante,
-            "color":"green",
- 
+            "videos":"https://www.youtube.com/watch?v=0tU_PTOlehs"
             },
             {
             "id":5,
@@ -59,7 +55,6 @@ export default class Principal extends React.Component{
             "descrip":"El rottweiler es una raza canina de tipo molosoide originaria de Alemania,",
             "img":stich,
             "videos":"https://www.youtube.com/watch?v=0tU_PTOlehs"
-   
             },
             {
             "id":6,
@@ -74,7 +69,6 @@ export default class Principal extends React.Component{
             "title":"rottwailer",
             "descrip":"El rottweiler es una raza canina de tipo molosoide originaria de Alemania,",
             "img":tres,
-            "color":"green",
              "videos":"https://www.youtube.com/watch?v=0tU_PTOlehs"
             },
             {
@@ -90,7 +84,6 @@ export default class Principal extends React.Component{
             "title":"rottwailer",
             "descrip":"El rottweiler es una raza canina de tipo molosoide originaria de Alemania,",
             "img":cinco,
-            "color":"green",
              "videos":"https://www.youtube.com/watch?v=0tU_PTOlehs"
             },
            , {
@@ -106,7 +99,6 @@ export default class Principal extends React.Component{
             "title":"rottwailer",
             "descrip":"El rottweiler es una raza canina de tipo molosoide originaria de Alemania,",
             "img":siete,
-            "color":"green",
              "videos":"https://www.youtube.com/watch?v=0tU_PTOlehs"
             },
              {
@@ -114,15 +106,13 @@ export default class Principal extends React.Component{
             "title":"rottwailer",
             "descrip":"El rottweiler es una raza canina de tipo molosoide originaria de Alemania,",
             "img":stich,
-            "color":"green",
              "videos":"https://www.youtube.com/watch?v=0tU_PTOlehs"
             },
              {
-            "id":10,
+            "id":13,
             "title":"rottwailer",
             "descrip":"El rottweiler es una raza canina de tipo molosoide originaria de Alemania,",
             "img":stich,
-            "color":"green",
              "videos":"https://www.youtube.com/watch?v=0tU_PTOlehs"
             }
     
@@ -146,7 +136,6 @@ export default class Principal extends React.Component{
             {/* <ListaTarjetas
             personajes={this.state.data}
             /> */}
-            <Botn/>
             <Videos2 corto={this.state.Videos}/>
 
             
