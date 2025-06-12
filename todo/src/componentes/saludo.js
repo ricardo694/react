@@ -14,10 +14,6 @@ function Saludo(props){
                     <button>{props.acceder}</button>
                 </div>
             </div>
-            <div className="container--descripcion">
-                <div className="descripcion--item"> 
-                </div>
-            </div>
         </div>
         
         
