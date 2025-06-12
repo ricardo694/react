@@ -130,7 +130,6 @@ export default class Principal extends React.Component{
             <Saludo
             name="Youtube"
             acceder="Acceder"
-            enlace="Música"
             buscar="Ver"
             />
             {/* <ListaTarjetas
