@@ -1,21 +1,17 @@
 import React from "react";
 import Tarjeta from "./Tarjetas"
-function ListaTarjetas(props){
-    return(
+const ListaTarjetas=({personaje})=>(
         <div className="container">
-              {props.personajes.map((personajes)=>{
-                            return(
+            {personaje.map((personajes)=>(
                                 <Tarjeta
+                                key={personajes.id}
                                 title={personajes.title}
                                 descrip={personajes.descrip}
                                 img={personajes.img}
-                                color={personajes.color}
+                                videos={personajes.videos}
                                 />
-                                
-                            )
-                        })
-                    },
+            ))
+                    }
         </div>
-    )
-}
+)
 export default ListaTarjetas
